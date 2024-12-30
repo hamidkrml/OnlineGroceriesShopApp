@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ekran2.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
