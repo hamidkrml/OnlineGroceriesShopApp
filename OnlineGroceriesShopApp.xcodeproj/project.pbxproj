@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		0303E3BC2D2316870061045E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0303E3A32D2316840061045E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0303E3AA2D2316840061045E;
+			remoteInfo = OnlineGroceriesShopApp;
+		};
+		0303E3C62D2316870061045E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0303E3A32D2316840061045E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0303E3AA2D2316840061045E;
+			remoteInfo = OnlineGroceriesShopApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0303E3AB2D2316840061045E /* OnlineGroceriesShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineGroceriesShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0303E3BB2D2316870061045E /* OnlineGroceriesShopAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineGroceriesShopAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0303E3C52D2316870061045E /* OnlineGroceriesShopAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineGroceriesShopAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0303E3AD2D2316840061045E /* OnlineGroceriesShopApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OnlineGroceriesShopApp;
+			sourceTree = "<group>";
+		};
+		0303E3BE2D2316870061045E /* OnlineGroceriesShopAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OnlineGroceriesShopAppTests;
+			sourceTree = "<group>";
+		};
+		0303E3C82D2316870061045E /* OnlineGroceriesShopAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OnlineGroceriesShopAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0303E3A82D2316840061045E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0303E3B82D2316870061045E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0303E3C22D2316870061045E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0303E3A22D2316840061045E = {
+			isa = PBXGroup;
+			children = (
+				0303E3AD2D2316840061045E /* OnlineGroceriesShopApp */,
+				0303E3BE2D2316870061045E /* OnlineGroceriesShopAppTests */,
+				0303E3C82D2316870061045E /* OnlineGroceriesShopAppUITests */,
+				0303E3AC2D2316840061045E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0303E3AC2D2316840061045E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0303E3AB2D2316840061045E /* OnlineGroceriesShopApp.app */,
+				0303E3BB2D2316870061045E /* OnlineGroceriesShopAppTests.xctest */,
+				0303E3C52D2316870061045E /* OnlineGroceriesShopAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0303E3AA2D2316840061045E /* OnlineGroceriesShopApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0303E3CF2D2316870061045E /* Build configuration list for PBXNativeTarget "OnlineGroceriesShopApp" */;
+			buildPhases = (
+				0303E3A72D2316840061045E /* Sources */,
+				0303E3A82D2316840061045E /* Frameworks */,
+				0303E3A92D2316840061045E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0303E3AD2D2316840061045E /* OnlineGroceriesShopApp */,
+			);
+			name = OnlineGroceriesShopApp;
+			packageProductDependencies = (
+			);
+			productName = OnlineGroceriesShopApp;
+			productReference = 0303E3AB2D2316840061045E /* OnlineGroceriesShopApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0303E3BA2D2316870061045E /* OnlineGroceriesShopAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0303E3D22D2316870061045E /* Build configuration list for PBXNativeTarget "OnlineGroceriesShopAppTests" */;
+			buildPhases = (
+				0303E3B72D2316870061045E /* Sources */,
+				0303E3B82D2316870061045E /* Frameworks */,
+				0303E3B92D2316870061045E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0303E3BD2D2316870061045E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0303E3BE2D2316870061045E /* OnlineGroceriesShopAppTests */,
+			);
+			name = OnlineGroceriesShopAppTests;
+			packageProductDependencies = (
+			);
+			productName = OnlineGroceriesShopAppTests;
+			productReference = 0303E3BB2D2316870061045E /* OnlineGroceriesShopAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0303E3C42D2316870061045E /* OnlineGroceriesShopAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0303E3D52D2316870061045E /* Build configuration list for PBXNativeTarget "OnlineGroceriesShopAppUITests" */;
+			buildPhases = (
+				0303E3C12D2316870061045E /* Sources */,
+				0303E3C22D2316870061045E /* Frameworks */,
+				0303E3C32D2316870061045E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0303E3C72D2316870061045E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0303E3C82D2316870061045E /* OnlineGroceriesShopAppUITests */,
+			);
+			name = OnlineGroceriesShopAppUITests;
+			packageProductDependencies = (
+			);
+			productName = OnlineGroceriesShopAppUITests;
+			productReference = 0303E3C52D2316870061045E /* OnlineGroceriesShopAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0303E3A32D2316840061045E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0303E3AA2D2316840061045E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0303E3BA2D2316870061045E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0303E3AA2D2316840061045E;
+					};
+					0303E3C42D2316870061045E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0303E3AA2D2316840061045E;
+					};
+				};
+			};
+			buildConfigurationList = 0303E3A62D2316840061045E /* Build configuration list for PBXProject "OnlineGroceriesShopApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0303E3A22D2316840061045E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0303E3AC2D2316840061045E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0303E3AA2D2316840061045E /* OnlineGroceriesShopApp */,
+				0303E3BA2D2316870061045E /* OnlineGroceriesShopAppTests */,
+				0303E3C42D2316870061045E /* OnlineGroceriesShopAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0303E3A92D2316840061045E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0303E3B92D2316870061045E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0303E3C32D2316870061045E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0303E3A72D2316840061045E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0303E3B72D2316870061045E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0303E3C12D2316870061045E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0303E3BD2D2316870061045E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0303E3AA2D2316840061045E /* OnlineGroceriesShopApp */;
+			targetProxy = 0303E3BC2D2316870061045E /* PBXContainerItemProxy */;
+		};
+		0303E3C72D2316870061045E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0303E3AA2D2316840061045E /* OnlineGroceriesShopApp */;
+			targetProxy = 0303E3C62D2316870061045E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0303E3CD2D2316870061045E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0303E3CE2D2316870061045E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0303E3D02D2316870061045E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnlineGroceriesShopApp/Preview Content\"";
+				DEVELOPMENT_TEAM = L7F6X2DV8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HamidKarimli.OnlineGroceriesShopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0303E3D12D2316870061045E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnlineGroceriesShopApp/Preview Content\"";
+				DEVELOPMENT_TEAM = L7F6X2DV8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HamidKarimli.OnlineGroceriesShopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0303E3D32D2316870061045E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7F6X2DV8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HamidKarimli.OnlineGroceriesShopAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineGroceriesShopApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnlineGroceriesShopApp";
+			};
+			name = Debug;
+		};
+		0303E3D42D2316870061045E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7F6X2DV8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HamidKarimli.OnlineGroceriesShopAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineGroceriesShopApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnlineGroceriesShopApp";
+			};
+			name = Release;
+		};
+		0303E3D62D2316870061045E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7F6X2DV8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HamidKarimli.OnlineGroceriesShopAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnlineGroceriesShopApp;
+			};
+			name = Debug;
+		};
+		0303E3D72D2316870061045E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L7F6X2DV8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HamidKarimli.OnlineGroceriesShopAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnlineGroceriesShopApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0303E3A62D2316840061045E /* Build configuration list for PBXProject "OnlineGroceriesShopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0303E3CD2D2316870061045E /* Debug */,
+				0303E3CE2D2316870061045E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0303E3CF2D2316870061045E /* Build configuration list for PBXNativeTarget "OnlineGroceriesShopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0303E3D02D2316870061045E /* Debug */,
+				0303E3D12D2316870061045E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0303E3D22D2316870061045E /* Build configuration list for PBXNativeTarget "OnlineGroceriesShopAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0303E3D32D2316870061045E /* Debug */,
+				0303E3D42D2316870061045E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0303E3D52D2316870061045E /* Build configuration list for PBXNativeTarget "OnlineGroceriesShopAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0303E3D62D2316870061045E /* Debug */,
+				0303E3D72D2316870061045E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0303E3A32D2316840061045E /* Project object */;
+}
